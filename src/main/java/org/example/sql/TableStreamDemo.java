@@ -19,14 +19,14 @@ public class TableStreamDemo {
         );
         StreamTableEnvironment tableEnv = StreamTableEnvironment.create(env);
 
-        // TODO 1. 流转表
+        // 1. 流转表
         Table sensorTable = tableEnv.fromDataStream(sensorDS);
         tableEnv.createTemporaryView("sensor", sensorTable);
 
         Table filterTable = tableEnv.sqlQuery("select id, ts, vc from sensor where ts > 2");
         Table sumTable = tableEnv.sqlQuery("select id, sum(vc) from sensor group by id");
 
-        // TODO 2. 表转流
+        // 2. 表转流
         // 2.1 追加流
         tableEnv.toDataStream(filterTable, WaterSensor.class).print("filter");
         // 2.2 changelog流（结果需要更新）
