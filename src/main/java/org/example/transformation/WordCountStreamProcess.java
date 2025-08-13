@@ -1,4 +1,4 @@
-package org.example;
+package org.example.transformation;
 
 import org.apache.flink.api.common.RuntimeExecutionMode;
 import org.apache.flink.api.common.functions.FlatMapFunction;
