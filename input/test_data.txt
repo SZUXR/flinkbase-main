@@ -1,0 +1,10 @@
+{"order_id":"order-001","customer_id":"customer-1","product_id":"product-A","quantity":2,"price":25.50,"order_time":"2024-01-15T10:00:00"}
+{"order_id":"order-002","customer_id":"customer-2","product_id":"product-B","quantity":1,"price":15.99,"order_time":"2024-01-15T10:00:05"}
+{"order_id":"order-003","customer_id":"customer-1","product_id":"product-A","quantity":3,"price":25.50,"order_time":"2024-01-15T10:00:10"}
+{"order_id":"order-004","customer_id":"customer-3","product_id":"product-C","quantity":1,"price":99.99,"order_time":"2024-01-15T10:00:15"}
+{"order_id":"order-005","customer_id":"customer-2","product_id":"product-B","quantity":2,"price":15.99,"order_time":"2024-01-15T10:00:20"}
+{"order_id":"order-006","customer_id":"customer-1","product_id":"product-A","quantity":1,"price":25.50,"order_time":"2024-01-15T10:00:25"}
+{"order_id":"order-007","customer_id":"customer-4","product_id":"product-D","quantity":4,"price":12.75,"order_time":"2024-01-15T10:00:35"}
+{"order_id":"order-008","customer_id":"customer-2","product_id":"product-B","quantity":1,"price":15.99,"order_time":"2024-01-15T10:00:40"}
+{"order_id":"order-009","customer_id":"customer-3","product_id":"product-C","quantity":2,"price":99.99,"order_time":"2024-01-15T10:00:45"}
+{"order_id":"order-010","customer_id":"customer-1","product_id":"product-A","quantity":1,"price":25.50,"order_time":"2024-01-15T09:59:50"}
